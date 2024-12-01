@@ -15,7 +15,7 @@ public class ListUser {
 
     @Given("hitting the rest api of user")
     public void hitting_the_rest_api_of_user() {
-        System.out.println();
+        getApiRequest.getApiCall();
     }
     @When("validating the aoi response")
     public void validating_the_aoi_response() {
